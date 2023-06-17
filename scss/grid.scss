@@ -1,0 +1,28 @@
+/* for now i wanted to get the css "converted" to scss format */
+/* still kinda unsure how it connects so i will ask later */
+$font-family_1: 'Sono', sans-serif;
+$background-color_1: #E2E4F6;
+
+body {
+	font-family: $font-family_1;
+	font-size: 20px;
+	background-color: $background-color_1;
+}
+
+
+
+/* second part of my css conversion to scss */
+.grid {
+	width: 600px;
+	height: 600px;
+	border: solid black 3px;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-image: url('trench.jpg');
+	div {
+		width: 40px;
+		height: 40px;
+	}
+}
