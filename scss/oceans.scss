@@ -1,0 +1,54 @@
+$font-family_1: 'Sono', sans-serif;
+$background-color_1: #E2E4F6;
+
+body {
+	font-family: $font-family_1;
+	font-size: 20px;
+	background-color: $background-color_1;
+}
+
+.grid {
+	width: 600px;
+	height: 600px;
+	border: solid black 3px;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-image: url('trench.jpg');
+	div {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+
+$background-color_2: #7371FC;
+
+.creature {
+	background-image: url('creature.jpg');
+	background-color: $background-color_2;
+	border-radius: 20px;
+}
+
+$background-color_3: #C1BFB5;
+
+.ship {
+	background-image: url('ship.png');
+	background-color: $background-color_3;
+}
+
+$background-color_4: #C1BFB5;
+
+.ship {
+	background-image: url('ship.png');
+	background-color: $background-color_4;
+    opacity: 80%;
+}
+
+$background-color_5: #0C8346;
+
+.boom {
+	background-color: $background-color_5;
+	background-image: url('creaturegoo.jpg');
+}
